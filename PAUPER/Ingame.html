@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INGAME</title>
+        <link rel="stylesheet" href="IngameFull.css">
+    </head>
+    <img src="INGAME_OVERLAY">
+    <body>
+        <div style="position: absolute;">
+            <img src="" id="Color1L" class="L1">
+            <img src="" id="Color2L" class="L2">
+            <img src="" id="Color3L" class="L3">
+            <img src="" id="Color4L" class="L4">
+            <img src="" id="Color5L" class="L5">
+        </div>
+        <div style="position: absolute;">
+            <img src="" id="Color1R" class="R1">
+            <img src="" id="Color2R" class="R2">
+            <img src="" id="Color3R" class="R3">
+            <img src="" id="Color4R" class="R4">
+            <img src="" id="Color5R" class="R5">
+        </div>
+        <span id="PlayerLeft" class="LPlayer"></span>
+        <span id="ScoreLeft" class="LScore"></span>
+        <span id="PlayerRight" class="RPlayer"></span>
+        <span id="ScoreRight" class="RScore"></span>
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'image' : {
+                    '' : 'Color1L',
+                    '' : 'Color2L',
+                    '' : 'Color3L',
+                    '' : 'Color4L',
+                    '' : 'Color5L',
+                    '' : 'Color1R',
+                    '' : 'Color2R',
+                    '' : 'Color3R',
+                    '' : 'Color4R',
+                    '' : 'Color5R',
+                }
+                'string' : {
+                    'A35' : 'PlayerLeft',
+                    'A31' : 'ScoreLeft',
+                    'A35' : 'PlayerRight',
+                    'A31' : 'ScoreRight',
+                }
+            };
+            const spreadsheetID = '1xyQA1eig_zPx9aNehXB3LYffz9oQyC6icKfyFlxQEWU'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
