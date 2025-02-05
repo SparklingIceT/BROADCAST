@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Top8</title>
+        <link rel="stylesheet" href="Paupertop8.css">
+    </head>
+    <body>
+        <img src="TOP 8.png" height="1080" width="1920">
+        <div>
+            <span id="Player1" class="Playername Row1 Top8"></span>
+            <span id="Player2" class="Playername Row2 Top8"></span>
+            <span id="Player3" class="Playername Row3 Top8"></span>
+            <span id="Player4" class="Playername Row4 Top8"></span>
+            <span id="Player5" class="Playername Row5 Top8"></span>
+            <span id="Player6" class="Playername Row6 Top8"></span>
+            <span id="Player7" class="Playername Row7 Top8"></span>
+            <span id="Player8" class="Playername Row8 Top8"></span>
+            <span id="Score1" class="Scorecount Row1 Top8Score"></span>
+            <span id="Score2" class="Scorecount Row2 Top8Score"></span>
+            <span id="Score3" class="Scorecount Row3 Top8Score"></span>
+            <span id="Score4" class="Scorecount Row4 Top8Score"></span>
+            <span id="Score5" class="Scorecount Row5 Top8Score"></span>
+            <span id="Score6" class="Scorecount Row6 Top8Score"></span>
+            <span id="Score7" class="Scorecount Row7 Top8Score"></span>
+            <span id="Score8" class="Scorecount Row8 Top8Score"></span>
+        </div>
+        <div>
+            <span id="Player9" class="Playername Row9 Top4"></span>
+            <span id="Player10" class="Playername Row10 Top4"></span>
+            <span id="Player11" class="Playername Row11 Top4"></span>
+            <span id="Player12" class="Playername Row12 Top4"></span>
+            <span id="Score9" class="Scorecount Row9 Top4Score"></span>
+            <span id="Score10" class="Scorecount Row10 Top4Score"></span>
+            <span id="Score11" class="Scorecount Row11 Top4Score"></span>
+            <span id="Score12" class="Scorecount Row12 Top4Score"></span>
+        </div>
+        <div>
+            <span id="Player13" class="Playername Row13 Top2"></span>
+            <span id="Player14" class="Playername Row14 Top2"></span>
+            <span id="Score13" class="Scorecount Row13 Top2Score"></span>
+            <span id="Score14" class="Scorecount Row14 Top2Score"></span>
+        </div>
+                <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'B4' : 'Player1',
+                    'B5' : 'Player2',
+                    'B8' : 'Player3',
+                    'B9' : 'Player4',
+                    'B12' : 'Player5',
+                    'B13' : 'Player6',
+                    'B16' : 'Player7',
+                    'B17' : 'Player8',
+                    'E6' : 'Player9',
+                    'E7' : 'Player10',
+                    'E14' : 'Player11',
+                    'E15' : 'Player12',
+                    'H10' : 'Player13',
+                    'H11' : 'Player14',
+                    'C4' : 'Score1',
+                    'C5' : 'Score2',
+                    'C8' : 'Score3',
+                    'C9' : 'Score4',
+                    'C12' : 'Score5',
+                    'C13' : 'Score6',
+                    'C16' : 'Score7',
+                    'C17' : 'Score8',
+                    'F6' : 'Score9',
+                    'F7' : 'Score10',
+                    'F14' : 'Score11',
+                    'F15' : 'Score12',
+                    'I10' : 'Score13',
+                    'I11' : 'Score14',
+                }
+            };
+            const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
+            const worksheetName = 'Top 8 Bracket Control';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
+    </body>
+</html>

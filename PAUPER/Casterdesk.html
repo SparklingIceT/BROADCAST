@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DESK</title>
+        <link rel="stylesheet" href="Pauperdesk.css">
+    </head>
+    <img src="INGAME_OVERLAY">
+    <body>
+        <span id="CasterLeft" class="LCaster"></span>
+        <span id="CasterRight" class="RCaster"></span>
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A35' : 'CasterLeft',
+                    'A31' : 'CasterRight',
+                }
+            };
+            const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
