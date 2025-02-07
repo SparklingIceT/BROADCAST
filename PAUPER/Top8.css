@@ -1,0 +1,110 @@
+@font-face {
+    font-family: dimbo;
+    font-style: normal;
+    src: url(FONTS/dimbo\ regular.ttf);
+}
+body {
+margin: 0px auto;
+overflow: hidden;
+font-family: dimbo;
+text-transform: uppercase;
+font-size: 40px;
+font-weight: 100;
+}
+.Playername {
+    color: #0a1332;
+    text-align: left;
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+}
+.Scorecount {
+    color: white;
+    text-align: center;
+    width: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+}
+.Top8 {
+    position: absolute;
+    left: 104px;
+}
+.Top8Score {
+    position: absolute;
+    left: 366px;
+}
+.Row1 {
+    position: absolute;
+    top: 149px;
+}
+.Row2 {
+    position: absolute;
+    top: 207px;
+}
+.Row3 {
+    position: absolute;
+    top: 375px;
+}
+.Row4 {
+    position: absolute;
+    top: 433px;
+}
+.Row5 {
+    position: absolute;
+    top: 600px;
+}
+.Row6 {
+    position: absolute;
+    top: 658px;
+}
+.Row7 {
+    position: absolute;
+    top: 825px;
+}
+.Row8 {
+    position: absolute;
+    top: 883px;
+}
+.Top4 {
+    position: absolute;
+    left: 780px;
+}
+.Top4Score {
+    left: 1042px;
+}
+.Row9 {
+    position: absolute;
+    top: 262px;
+}
+.Row10 {
+    position: absolute;
+    top: 320px;
+}
+.Row11 {
+    position: absolute;
+    top: 712px;
+}
+.Row12 {
+    position: absolute;
+    top: 770px;
+}
+.Top2 {
+    position: absolute;
+    left: 1453px;
+}
+.Top2Score {
+    position: absolute;
+    left: 1716px;
+}
+.Row13 {
+    position: absolute;
+    top: 482px;
+}
+.Row14 {
+    position: absolute;
+    top: 540px;
+}

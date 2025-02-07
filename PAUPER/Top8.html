@@ -2,10 +2,10 @@
 <html>
     <head>
         <title>Top8</title>
-        <link rel="stylesheet" href="Paupertop8.css">
+        <link rel="stylesheet" href="Top8.css">
     </head>
     <body>
-        <img src="TOP 8.png" height="1080" width="1920">
+        <img src="IMAGES/BRACKET.png" height="1080" width="1920">
         <div>
             <span id="Player1" class="Playername Row1 Top8"></span>
             <span id="Player2" class="Playername Row2 Top8"></span>
@@ -42,48 +42,46 @@
         </div>
                 <!-- JAVASCRIPT STUFF-->
         <!-- Import Updater -->
-        <script src="Updater.js"></script>
+        <script src="JAVASCRIPT/Updater.js"></script>
         <script>
             const settings = {
                 'string' : {
-                    'B4' : 'Player1',
-                    'B5' : 'Player2',
-                    'B8' : 'Player3',
-                    'B9' : 'Player4',
-                    'B12' : 'Player5',
-                    'B13' : 'Player6',
-                    'B16' : 'Player7',
-                    'B17' : 'Player8',
-                    'E6' : 'Player9',
-                    'E7' : 'Player10',
-                    'E14' : 'Player11',
-                    'E15' : 'Player12',
-                    'H10' : 'Player13',
-                    'H11' : 'Player14',
-                    'C4' : 'Score1',
-                    'C5' : 'Score2',
-                    'C8' : 'Score3',
-                    'C9' : 'Score4',
-                    'C12' : 'Score5',
-                    'C13' : 'Score6',
-                    'C16' : 'Score7',
-                    'C17' : 'Score8',
-                    'F6' : 'Score9',
-                    'F7' : 'Score10',
-                    'F14' : 'Score11',
-                    'F15' : 'Score12',
-                    'I10' : 'Score13',
-                    'I11' : 'Score14',
+                    'A42' : 'Player1',
+                    'A43' : 'Player2',
+                    'A44' : 'Player3',
+                    'A45' : 'Player4',
+                    'A46' : 'Player5',
+                    'A47' : 'Player6',
+                    'A48' : 'Player7',
+                    'A49' : 'Player8',
+                    'A50' : 'Player9',
+                    'A51' : 'Player10',
+                    'A52' : 'Player11',
+                    'A53' : 'Player12',
+                    'A54' : 'Player13',
+                    'A55' : 'Player14',
+                    'A56' : 'Score1',
+                    'A57' : 'Score2',
+                    'A58' : 'Score3',
+                    'A59' : 'Score4',
+                    'A60' : 'Score5',
+                    'A61' : 'Score6',
+                    'A62' : 'Score7',
+                    'A63' : 'Score8',
+                    'A64' : 'Score9',
+                    'A65' : 'Score10',
+                    'A66' : 'Score11',
+                    'A67' : 'Score12',
+                    'A68' : 'Score13',
+                    'A69' : 'Score14',
                 }
             };
             const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
-            const worksheetName = 'Top 8 Bracket Control';
+            const worksheetName = 'OUTPUT';
             const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
             const updateInterval = 3000;
 
             const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
         </script>
-    </body>
-</html>
     </body>
 </html>
