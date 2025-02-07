@@ -6,20 +6,6 @@
     </head>
     <img src="INGAME_OVERLAY">
     <body>
-        <div style="position: absolute;">
-            <img src="" id="Color1L" class="L1">
-            <img src="" id="Color2L" class="L2">
-            <img src="" id="Color3L" class="L3">
-            <img src="" id="Color4L" class="L4">
-            <img src="" id="Color5L" class="L5">
-        </div>
-        <div style="position: absolute;">
-            <img src="" id="Color1R" class="R1">
-            <img src="" id="Color2R" class="R2">
-            <img src="" id="Color3R" class="R3">
-            <img src="" id="Color4R" class="R4">
-            <img src="" id="Color5R" class="R5">
-        </div>
         <span id="PlayerLeft" class="LPlayer"></span>
         <span id="PlayerRight" class="RPlayer"></span>
         <div>
@@ -31,17 +17,13 @@
         <script src="Updater.js"></script>
         <script>
             const settings = {
-                'image' : {
-                    '' : 'Color1L',
-                    '' : 'Color2L',
-                    '' : 'Color3L',
-                    '' : 'Color4L',
-                    '' : 'Color5L',
-                    '' : 'Color1R',
-                    '' : 'Color2R',
-                    '' : 'Color3R',
-                    '' : 'Color4R',
-                    '' : 'Color5R',
+'switch' : {
+                    'A29': {
+                        '1': 'LeftWin',
+                    },
+                    'A31': {
+                        '1': 'RightWin',
+                    }
                 },
                 'string' : {
                     'A35' : 'PlayerLeft',
