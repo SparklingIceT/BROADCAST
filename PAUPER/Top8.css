@@ -12,7 +12,7 @@ font-size: 40px;
 font-weight: 100;
 }
 .Playername {
-    color: #0a1332;
+    color: #202121;
     text-align: left;
     width: 350px;
     overflow: hidden;
@@ -21,7 +21,7 @@ font-weight: 100;
     position: absolute;
 }
 .Scorecount {
-    color: white;
+    color: #202121;
     text-align: center;
     width: 225px;
     overflow: hidden;
@@ -31,80 +31,80 @@ font-weight: 100;
 }
 .Top8 {
     position: absolute;
-    left: 104px;
+    left: 410px;
 }
 .Top8Score {
     position: absolute;
-    left: 366px;
+    left: 540px;
 }
 .Row1 {
     position: absolute;
-    top: 149px;
+    top: 300px;
 }
 .Row2 {
     position: absolute;
-    top: 207px;
+    top: 343px;
 }
 .Row3 {
     position: absolute;
-    top: 375px;
+    top: 496px;
 }
 .Row4 {
     position: absolute;
-    top: 433px;
+    top: 539px;
 }
 .Row5 {
     position: absolute;
-    top: 600px;
+    top: 694px;
 }
 .Row6 {
     position: absolute;
-    top: 658px;
+    top: 739px;
 }
 .Row7 {
     position: absolute;
-    top: 825px;
+    top: 884px;
 }
 .Row8 {
     position: absolute;
-    top: 883px;
+    top: 929px;
 }
 .Top4 {
     position: absolute;
-    left: 780px;
+    left: 850px;
 }
 .Top4Score {
-    left: 1042px;
+    left: 980px;
 }
 .Row9 {
     position: absolute;
-    top: 262px;
+    top:400px;
 }
 .Row10 {
     position: absolute;
-    top: 320px;
+    top: 443px;
 }
 .Row11 {
     position: absolute;
-    top: 712px;
+    top: 786px;
 }
 .Row12 {
     position: absolute;
-    top: 770px;
+    top: 829px;
 }
 .Top2 {
     position: absolute;
-    left: 1453px;
+    left: 1285px;
 }
 .Top2Score {
     position: absolute;
-    left: 1716px;
+    left: 1415px;
 }
 .Row13 {
     position: absolute;
-    top: 482px;
+    top: 596px;
 }
 .Row14 {
     position: absolute;
-    top: 540px;
+    top: 639px;
 }
