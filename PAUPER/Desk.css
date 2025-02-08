@@ -8,8 +8,25 @@ margin: 0px auto;
 overflow: hidden;
 font-family: dimbo;
 text-transform: uppercase;
-font-size: 40px;
+font-size: 80px;
 font-weight: 100;
 color: #202121;
 text-align: left;
+}
+.LCaster {
+    position: absolute;
+    top: 862px;
+    left: 680px;
+}
+.RCaster {
+    position: absolute;
+    top: 862px;
+    left: 1100px;
+}
+.Winner {
+    text-align: center;
+    width: 800px;
+    position: absolute;
+    top: 855px;
+    left: 560px;  
 }
