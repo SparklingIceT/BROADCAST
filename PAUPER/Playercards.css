@@ -1,8 +1,10 @@
-.CardL {
+.Card1 {
     position: absolute;
-    
+    left: 200px;
+    top: 50px;
 }
-.CardR {
+.Card2 {
     position: absolute;
-    
+    left: 1200px;
+    top: 50px;
 }
