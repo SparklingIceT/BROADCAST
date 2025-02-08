@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INGAME</title>
+        <link rel="stylesheet" href="Playercards.css">
+    </head>
+    <body>
+        <div style="position: absolute;">
+            <img src="" id="CardL" class="Card1">
+            <img src="" id="CardR" class="Card2">
+        </div>
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="JAVASCRIPT/Updater.js"></script>
+        <script>
+            const settings = {
+                'image' : {
+                    'A28' : 'CardL',
+                    'A30' : 'CardR',
+                },
+            };
+            const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
