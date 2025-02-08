@@ -1,0 +1,49 @@
+@font-face {
+    font-family: dimbo;
+    font-style: normal;
+    src: url(FONTS/dimbo\ regular.ttf);
+}
+body {
+margin: 0px auto;
+overflow: hidden;
+font-family: dimbo;
+text-transform: uppercase;
+font-size: 48px;
+font-weight: 100;
+color: #ece9d4;
+}
+.LPlayer {
+    position: absolute;
+    top: 940px;
+    left: 207px;
+}
+.RPlayer {
+    position: absolute;
+    top: 940px;
+    left: 1514px;
+}
+.LDeck {
+    font-size: 36px;
+    position: absolute;
+    top: 1003px;
+    left: 207px;
+}
+.RDeck {
+    font-size: 36px;
+    position: absolute;
+    top: 1003px;
+    left: 1514px;
+}
+.Stage1 {
+    position: absolute;
+    top: 970px;
+    left: 697px;
+    margin:0 auto;
+    text-align:right;
+    width: 50px;
+}
+.Stage2 {
+    position: absolute;
+    top: 970px;
+    left: 1077px;
+}

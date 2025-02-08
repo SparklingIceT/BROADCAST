@@ -4,32 +4,41 @@
         <title>INGAME</title>
         <link rel="stylesheet" href="Pauperingame.css">
     </head>
-    <img src="INGAME_OVERLAY">
     <body>
+        <div>
+            <img src="IMAGES/INGAME.png" style="position: fixed;">
+            <img src="IMAGES/Left_Win_1.png" id="LeftWin" style="position: fixed;">
+            <img src="IMAGES/Right_Win_1.png" id="RightWin" style="position: fixed;">
+            <img src="" id="LeftStage" style="position: fixed;">
+            <img src="IMAGES/Finals Text.png" id="RightStage" style="position: fixed;">
+        </div>
         <span id="PlayerLeft" class="LPlayer"></span>
         <span id="PlayerRight" class="RPlayer"></span>
-        <div>
-            <img src="SCOREPOINT.png" id="LeftWin" style="position: absolute; top: 585px; left: 165px;">
-            <img src="SCOREPOINT.png" id="RightWin" style="position: absolute; top: 696px; left: 165px;">
-        </div>
+        <span id="DeckLeft" class="LDeck"></span>
+        <span id="DeckRight" class="RDeck"></span>
         <!-- JAVASCRIPT STUFF-->
         <!-- Import Updater -->
-        <script src="Updater.js"></script>
+        <script src="JAVASCRIPT/Updater.js"></script>
         <script>
             const settings = {
 'switch' : {
-                    'A29': {
+                    'A32': {
                         '1': 'LeftWin',
                     },
-                    'A31': {
+                    'A34': {
                         '1': 'RightWin',
                     }
                 },
+                'image' : {
+                    'A2' : 'LeftStage'
+                },
                 'string' : {
-                    'A35' : 'PlayerLeft',
-                    'A31' : 'ScoreLeft',
-                    'A35' : 'PlayerRight',
-                    'A31' : 'ScoreRight',
+                    'A4' : 'PlayerLeft',
+                    'A6' : 'PlayerRight',
+                    'B2' : 'StageIdentifier_1',
+                    'C2' : 'StageIdentifier_2',
+                    'A8' : 'DeckLeft',
+                    'A10' : 'DeckRight',
                 }
             };
             const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'

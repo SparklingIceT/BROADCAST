@@ -1,0 +1,15 @@
+@font-face {
+    font-family: dimbo;
+    font-style: normal;
+    src: url(FONTS/dimbo\ regular.ttf);
+}
+body {
+margin: 0px auto;
+overflow: hidden;
+font-family: dimbo;
+text-transform: uppercase;
+font-size: 40px;
+font-weight: 100;
+color: #202121;
+text-align: left;
+}
